@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário simples</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form name="signup" onsubmit="alert('formulário enviado')" target="_blank" method="post" action="servidor.com.br">
+        <label> Nome: </label><input type="text" name="name"> <br>
+        <label> Idade: </label> <input type="number" name="age"> <br>
+        <label> Senh: </label><input type="password" name="password"> <br>
+        <label> Range: </label> <input type="range"><br>
+        <label> Color: </label> <input type="color"><br>
+        <label> URL: </label> <input type="url" name="" id=""><br>
+        <label> Date: </label> <input type="date" name="" id=""><br>
+        <label> Checkbox: </label> <input type="checkbox"><br>
+        <label> Radio: </label> <input type="radio" name="teste"> <input type="radio" name="teste"><br>
+        <label> Hiden: </label> <input type="hidden"><br>
+        <label> search: </label> <input type="search"><br>
+        <label> file: </label> <input type="file"><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>coisas importantes sobre o Formulário:</h2>
+    <ul>
+        <li>A tag &lt;form&gt; possui atributos:</li>
+        <ul>
+            <li><Strong>nome:</Strong> nome do formulário, lembrando a orientação a objeto</li>
+            <li><strong>action:</strong> local para onde os dados do formulário será enviado, snedo uma URL de um servidor</li>
+        </ul>
+        <li>Os campos são como variáveis abertas onde o usuário pode inserir dados. isso significa que a tag &lt;input&gt; possui atributos e tipagem como:</li>
+        <ul>
+            <li><em>nome</em></li>
+            <li><em>identificador</em></li>
+            <li><em>tipo</em></li>
+        </ul>
+            <li>recuperação de dados ocorre localizando os dados através de chaves como nome, identificador e valor armazenado.</li>
+        
+    </ul>
+    
+    
+</body>
+</html>
